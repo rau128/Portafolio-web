@@ -3,7 +3,7 @@ import ModosDiaNoche from "./ModosDiaNoche";
 import Navegacion from "./Navegacion";
 const Header = () => {
   return (
-    <header className="p-4 flex flex-col md:flex-row justify-evenly items-center bg-slate-500 text-white">
+    <header className="p-4 md:sticky top-0 flex flex-col md:flex-row justify-evenly items-center bg-slate-500 text-white">
       <div className="flex flex-col md:flex-row justify-center items-center md:items-stretch mb-4 md:mb-0 gap-4 ">
         <img
           src={imgPerfil}

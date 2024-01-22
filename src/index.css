@@ -9,3 +9,11 @@ body {
   font-family: "Quicksand", sans-serif;
   background-color: rgb(124, 233, 124);
 }
+
+@media (min-width: 768px) {
+  body {
+    /* background-image: url(./img/f2.png); */
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
