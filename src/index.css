@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.letra {
+  font-family: "Grape Nuts", cursive;
+}
+body {
+  font-family: "Quicksand", sans-serif;
+  background-color: rgb(124, 233, 124);
+}
