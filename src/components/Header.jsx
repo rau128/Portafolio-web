@@ -4,7 +4,7 @@ import Navegacion from "./Navegacion";
 const Header = () => {
   return (
     <header className="p-4 md:sticky top-0 flex flex-col md:flex-row justify-evenly items-center bg-slate-500 text-white">
-      <div className="flex flex-col md:flex-row justify-center items-center md:items-stretch mb-4 md:mb-0 gap-4 ">
+      <div className="flex md:block lg:flex flex-col md:flex-row justify-center items-center md:items-stretch mb-4 md:mb-0 gap-4 ">
         <img
           src={imgPerfil}
           alt="Imagen de perfil"
@@ -12,7 +12,7 @@ const Header = () => {
           height={100}
           className="rounded-[50px] shadow-slate-500 shadow-xl"
         />
-        <span className=" md:mt-10 text-4xl font-bold text-green-400 letra hover:translate-x-1">
+        <span className=" md:mt-10 text-4xl md:text-2xl font-bold text-green-400 letra hover:translate-x-1">
           Raudis Consoro
         </span>
       </div>

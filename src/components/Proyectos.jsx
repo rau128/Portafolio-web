@@ -7,7 +7,9 @@ const Proyectos = () => {
       className="mx-auto w-[90%] hover:rotate-3 bg-gray-400 py-4 rounded-md "
       id="proyectos"
     >
-      <h2 className="text-5xl text-white text-center ">Mis Proyectos</h2>
+      <h2 className=" text-3xl md:text-5xl text-white text-center ">
+        Mis Proyectos
+      </h2>
 
       <div className="md:grid gap-4 grid-cols-2 p-4 ">
         <img
