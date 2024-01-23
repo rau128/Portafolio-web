@@ -15,7 +15,7 @@ const Navegacion = () => {
       </a>
       <a
         href="#"
-        className="bg-green-500 p-3 md:p-2 hover:rotate-3 md:hover:text-2xl transition-all hover:bg-orange-500 hover:text-white rounded-md"
+        className="bg-green-500 p-3 md:p-3 hover:rotate-3 md:hover:text-2xl transition-all hover:bg-orange-500 hover:text-white rounded-md"
       >
         Sobre Mi
       </a>
